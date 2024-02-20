@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.welcome{
+    height: 390px;
+    width: 450px;
+    object-fit: cover;
+    margin-left: 50px;
+}
+.wea{
+    margin-top:10px;
+    height: 150px;
+    width:150px;
+    object-fit :cover;
+    margin-left: 160px;
+    display: none;
+    
+}
+img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.search-box {
+    text-align: center;
+   
+    margin-top: 20px;
+    background: white;
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.search-box input {
+    width: 455px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+.search-box button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+}
+
+.search-box input::placeholder {
+    font-size: 20px;
+    text-align: center;
+}
+
+.result {
+    background: white;
+    height: 60vh;
+    width: 100%;
+    padding: 15px; 
+    flex-direction:column;
+    margin-block: 10px;
+    display: none;
+    border-radius: 10px;
+}
+.name-city{
+    text-align: center;
+    font-size: 30px;
+}
+.edit{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+.result img {
+    width: 50%;
+    height: 25vh;
+    object-fit: cover;
+    border: solid;
+}
+.weather-box {
+    margin-right: 32px;
+    display:inline;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.weather-details {
+    margin-top: 40px;
+    display:flex;
+    gap: 150px;
+    font-size: 30px;
+}
+.location-not-found {
+    background: white;
+    margin-top: 20px;
+    display: none;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.location-not-found h1 {
+    font-size: 20px;
+    color: #6b6b6b;
+    margin-block-end: 15px;
+}
+
+.location-not-found img {
+    width: 50%;
+    height: 200px;
+    object-fit: fill;
+}
